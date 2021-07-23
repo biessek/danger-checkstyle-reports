@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CheckStyleReportsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-07-23T15:11:47" hostname="Biesseks-MacBook-Pro.local" time="1.86">
+  <properties/>
+  <testcase name="when multiple files then parses every one()" classname="CheckStyleReportsTest" time="1.808"/>
+  <testcase name="when file doesn't exists throws error()" classname="CheckStyleReportsTest" time="0.028"/>
+  <testcase name="when multiple files doesn't match anything then throws()" classname="CheckStyleReportsTest" time="0.019"/>
+  <system-out><![CDATA[org.opentest4j.AssertionFailedError: Should fail as no file exists]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

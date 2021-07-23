@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.9">
+    <file name="/path/second/to/ExampleClass.kt">
+        <error line="27" column="24" severity="error" message="Missing newline after &quot;:&quot;" source="indent" />
+    </file>
+    <file name="/path/second/to/another/AnotherExampleClass.kt">
+        <error line="27" column="24" severity="error" message="Missing newline after &quot;:&quot;" source="indent" />
+        <error line="36" column="24" severity="error" message="Missing newline after &quot;:&quot;" source="indent" />
+    </file>
+    <file name="/path/second/to/EmptyClass.kt">
+    </file>
+</checkstyle>
